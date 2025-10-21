@@ -1,7 +1,14 @@
-<!DOCTYPE html>
-<html>
-  <body style="text-align:center; font-family:sans-serif;">
-    <h1>Welcome to HNG Stage 1!</h1>
-    <p>Deployed by Adeniyi Islamiat Aderonke</p>
-  </body>
-</html>
+# Use the official Nginx image
+FROM nginx:latest
+
+# Remove the default nginx page
+RUN rm -rf /usr/share/nginx/html/*
+
+# Copy our custom HTML into the web directory
+COPY index.html /usr/share/nginx/html/
+
+# Expose port 80
+EXPOSE 80
+
+# Start NGINX automatically
+CMD ["nginx", "-g", "daemon off;"]

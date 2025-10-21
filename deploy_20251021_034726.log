@@ -1,0 +1,7 @@
+2025-10-21T10:47:26Z Starting deployment. Logging to deploy_20251021_034726.log
+2025-10-21T10:51:44Z Inputs collected. Repo: https://funmitez.github.io/hng13-stage1-devops/ Branch: main Remote: ubuntu@3.92.77.113 AppPort: 80 RemoteBase: ~/deploy_app
+2025-10-21T10:51:44Z Testing SSH connectivity to ubuntu@3.92.77.113
+2025-10-21T10:51:55Z SSH connectivity OK
+2025-10-21T10:51:55Z Uploading and executing remote preflight script
+2025-10-21T10:52:32Z Remote environment prepared (best-effort).
+2025-10-21T10:52:32Z Cloning/pulling repo locally into /tmp/tmp.UcRR7HlUCZ

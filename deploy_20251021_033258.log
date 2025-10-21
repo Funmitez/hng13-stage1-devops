@@ -1,0 +1,3 @@
+2025-10-21T10:32:58Z Starting deployment. Logging to deploy_20251021_033258.log
+2025-10-21T10:42:21Z ERROR: SSH key not found at C:\Users\ADEWALE\Downloads
+2025-10-21T10:42:22Z Script exiting. (cleanup hook)

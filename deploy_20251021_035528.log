@@ -1,0 +1,5 @@
+2025-10-21T10:55:28Z Starting deployment. Logging to deploy_20251021_035528.log
+2025-10-21T11:02:19Z Inputs collected. Repo: https://funmitez.github.io/hng13-stage1-devops/ Branch: main Remote: ubuntu@http://3.92.77.113[D[D[D[D[D[D[D[D[C[C[C[C[C[C[C AppPort: 80 RemoteBase: ~/deploy_app
+2025-10-21T11:02:19Z Testing SSH connectivity to ubuntu@http://3.92.77.113[D[D[D[D[D[D[D[D[C[C[C[C[C[C[C
+2025-10-21T11:02:21Z ERROR: SSH connection failed to ubuntu@http://3.92.77.113[D[D[D[D[D[D[D[D[C[C[C[C[C[C[C
+2025-10-21T11:02:21Z Script exiting. (cleanup hook)
